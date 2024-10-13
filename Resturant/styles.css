@@ -1,0 +1,159 @@
+/* Media Queries */
+@media (min-width: 576px) {
+  /* Small devices (sm) */
+  .navbar {
+    margin: 0px 20px 50px 50px; /* Adjust for better responsiveness */
+  }
+}
+
+@media (min-width: 768px) {
+  /* Tablets (md) */
+  .navbar {
+    margin: 0px 30px 60px 70px; /* Adjust for tablets */
+  }
+}
+
+@media (min-width: 992px) {
+  /* Large devices (lg) */
+  .navbar {
+    margin: 0px 40px 75px 95px; /* Larger margin for big screens */
+  }
+}
+
+@media (min-width: 1200px) {
+  /* Extra large devices (xl) */
+  .navbar {
+    margin: 0px 60px 85px 125px;
+  }
+}
+
+/* Navbar Styles */
+.navbar {
+  padding-right: 15%;
+  margin: 0px 40px 50px 95px;
+  position: relative;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.d-flex {
+  align-content: center;
+}
+
+.text-gradient {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  z-index: 1;
+  background-image: linear-gradient(310deg, #000000, #e33f00);
+}
+
+/* Scrollbar Customization */
+#navbarScrollContainer {
+  scrollbar-width: thin;
+}
+
+#navbarScrollContainer::-webkit-scrollbar {
+  width: 8px;
+}
+
+#navbarScrollContainer::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
+
+#navbarScrollContainer::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+/* Video Section */
+.video {
+  max-width: 97%;
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+  margin: 30px 40px 75px 95px;
+  object-position: center;
+}
+
+/* Uncomment the below if you want the video to be responsive */
+
+/* .video  {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+} */
+
+
+/* Menu Styling */
+.menu {
+  color: #fff;
+}
+
+/* Menu Item Card Section */
+.card {
+  transition: opacity 0.5s ease-in-out;
+  opacity: 1;
+}
+
+.card.hovered {
+  opacity: 0.5; /* Slight opacity for hover */
+}
+#menu-items{
+  margin: 30px 40px 75px 85px;
+}
+
+/* footer section  */ 
+
+.footer {
+  background: #150c21;
+  color: #fff;
+  padding: 50px 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin: 30px 40px 75px 85px;
+}
+.footer-start {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-logo img {
+  width: 50px;
+}
+.column {
+  flex: 1;
+}
+.column-title {
+  font-weight: bold;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+ul li {
+  margin-bottom: 10px;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+button {
+  background-color: #705df2;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
